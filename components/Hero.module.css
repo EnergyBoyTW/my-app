@@ -1,0 +1,29 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin-right: 2rem;
+  }
+  
+  .image {
+    position: relative;
+  }
+  
+  .home {
+    background-color: #f0f0f0;
+  }
+  
+  .about {
+    background-color: #b4c5e4;
+  }
+  
+  .contact {
+    background-color: #f6bd60;
+  }
+  
