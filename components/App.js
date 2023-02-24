@@ -32,11 +32,11 @@ const App = () => {
 
     return (
         <>
-            <ul>
+            <div>
                 {countries.map((country) => (
-                                    <Hero data = {country}/>
+                                    <Hero key={country.name} data = {country}/>
                                 ))}
-            </ul>
+            </div>
         </>
     );
 }

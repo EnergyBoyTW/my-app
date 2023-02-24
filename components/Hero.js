@@ -9,9 +9,6 @@ const Hero = ({data}) => {
             <div>
                 <p>{data.emoji}</p>
             </div>
-            {/* <div>
-                <p>{data.languages.name}</p>
-            </div> */}
     </div>
   )
 }
