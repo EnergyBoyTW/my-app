@@ -7,9 +7,9 @@ const Hero = ({data}) => {
 
   var language_str = ''
   for (let i = 0; i < languages.length; i++) {
-    language_str+=languages[i].name
+    language_str+=(languages[i].name+', ')
   }
-  console.log(language_str)
+  language_str = language_str.slice(0, -1)
   return (
     <div>
             <div>
